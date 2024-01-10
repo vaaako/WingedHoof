@@ -1,0 +1,2334 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vardec",
+				"vardec"
+			],
+			[
+				"runtime",
+				"RuntimeVal"
+			],
+			[
+				"const",
+				"const_cast"
+			],
+			[
+				"Nul",
+				"NullVal"
+			],
+			[
+				"Null",
+				"NullVal"
+			],
+			[
+				"coun",
+				"count_lines"
+			],
+			[
+				"count",
+				"count_lines"
+			],
+			[
+				"line",
+				"lineText"
+			],
+			[
+				"pos",
+				"pos_end"
+			],
+			[
+				"par",
+				"parse_var_declaration"
+			],
+			[
+				"tok",
+				"TokenType"
+			],
+			[
+				"tokenty",
+				"TokenType"
+			],
+			[
+				"node",
+				"NodeType"
+			],
+			[
+				"iden",
+				"Identifier"
+			],
+			[
+				"get",
+				"get_type"
+			],
+			[
+				"Boo",
+				"BooleanVal"
+			],
+			[
+				"Number",
+				"NumberVal"
+			],
+			[
+				"uni",
+				"unique_ptr"
+			],
+			[
+				"unique",
+				"unique_ptr"
+			],
+			[
+				"make",
+				"make_unique"
+			],
+			[
+				"Numeb",
+				"NumberVal"
+			],
+			[
+				"sy",
+				"symbolTable"
+			],
+			[
+				"s",
+				"second"
+			],
+			[
+				"stac",
+				"stackBuffer"
+			],
+			[
+				"symbol",
+				"symbolTable"
+			],
+			[
+				"shar",
+				"shared_ptr"
+			],
+			[
+				"cou",
+				"cout"
+			],
+			[
+				"symb",
+				"symbolTable"
+			],
+			[
+				"type",
+				"typedef"
+			],
+			[
+				"Num",
+				"NumberVal"
+			],
+			[
+				"symbo",
+				"symbolTable"
+			],
+			[
+				"Numb",
+				"NumberVal"
+			],
+			[
+				"NUll",
+				"NullVal"
+			],
+			[
+				"de",
+				"declare_var"
+			],
+			[
+				"var",
+				"var_exists"
+			],
+			[
+				"stack",
+				"stackBuffer"
+			],
+			[
+				"add",
+				"add_var"
+			],
+			[
+				"vari",
+				"variableEnvironment"
+			],
+			[
+				"varia",
+				"variableEnvironment"
+			],
+			[
+				"Clos",
+				"CloseParen"
+			],
+			[
+				"open",
+				"OpenParen"
+			],
+			[
+				"tokentype",
+				"TokenType"
+			],
+			[
+				"Token",
+				"TokenType"
+			],
+			[
+				"Open",
+				"OpenParen"
+			],
+			[
+				"Nume",
+				"NumberVal"
+			],
+			[
+				"eval",
+				"eval_num_binop"
+			],
+			[
+				"parse",
+				"parse_primary_expr"
+			],
+			[
+				"NUm",
+				"NumericLiteral"
+			],
+			[
+				"r",
+				"runtimeResult"
+			],
+			[
+				"ea",
+				"eval_program"
+			],
+			[
+				"get_node",
+				"get_node_kind"
+			],
+			[
+				"debug",
+				"debug_all"
+			],
+			[
+				"g",
+				"get_type"
+			],
+			[
+				"Nu",
+				"NullVal"
+			],
+			[
+				"exit",
+				"EXIT_SUCCESS"
+			],
+			[
+				"linu",
+				"linux_editline.h\""
+			],
+			[
+				"erro",
+				"errorMessage"
+			],
+			[
+				"error",
+				"errorMessage"
+			],
+			[
+				"get_pos",
+				"get_post_end"
+			],
+			[
+				"Error",
+				"Error"
+			],
+			[
+				"Ope",
+				"OpenParen"
+			],
+			[
+				"pars",
+				"parse_additive_expr"
+			],
+			[
+				"is",
+				"isrunning"
+			],
+			[
+				"em",
+				"emplace_back"
+			],
+			[
+				"parse_",
+				"parse_stmt"
+			],
+			[
+				"empla",
+				"emplace_back"
+			],
+			[
+				"genera",
+				"generate_error_message"
+			],
+			[
+				"Lex",
+				"LexerResponse"
+			],
+			[
+				"Lexer",
+				"LexerResponse"
+			],
+			[
+				"util",
+				"utils.hpp\""
+			],
+			[
+				"Erro",
+				"ErrorType"
+			],
+			[
+				"size",
+				"size_t"
+			],
+			[
+				"Tokn",
+				"TokenType"
+			],
+			[
+				"inc",
+				"inc\t#include \"…\""
+			],
+			[
+				"pop",
+				"pop_source"
+			],
+			[
+				"secto",
+				"sectorZ2"
+			],
+			[
+				"loads",
+				"loadSprites"
+			],
+			[
+				"load",
+				"loadSprites"
+			],
+			[
+				"spri",
+				"sprites"
+			],
+			[
+				"pe",
+				"open(filename, mode)"
+			],
+			[
+				"random",
+				"random(m, n)"
+			],
+			[
+				"scal",
+				"scaleY"
+			],
+			[
+				"tex",
+				"TEXTURE"
+			],
+			[
+				"gettex",
+				"getTextureDimensions(x1, x2, y1, y2)"
+			],
+			[
+				"NUM",
+				"NUM_WALL"
+			],
+			[
+				"quad",
+				"quadWidth"
+			],
+			[
+				"slice",
+				"sliceX1"
+			],
+			[
+				"H",
+				"HEIGHT"
+			],
+			[
+				"wid",
+				"WIDTH"
+			],
+			[
+				"hE",
+				"HEIGHT"
+			],
+			[
+				"width",
+				"WIDTH"
+			],
+			[
+				"scale",
+				"scaleY"
+			],
+			[
+				"hei",
+				"HEIGHT"
+			],
+			[
+				"text",
+				"TEXTURE"
+			],
+			[
+				"t2",
+				"tx2"
+			],
+			[
+				"texture",
+				"TEXTURE"
+			],
+			[
+				"surf",
+				"surface"
+			],
+			[
+				"player",
+				"PLAYER_SENS"
+			],
+			[
+				"pr",
+				"love.graphics.print"
+			],
+			[
+				"h",
+				"HEIGHT"
+			],
+			[
+				"PLA",
+				"PLAYER_SPEED"
+			],
+			[
+				"W",
+				"WIDTH"
+			],
+			[
+				"play",
+				"PLAYER_SENS"
+			],
+			[
+				"pl",
+				"PLAYER_SPEED"
+			],
+			[
+				"PLAS",
+				"PLAYER_SPEED"
+			],
+			[
+				"PLAYER",
+				"PLAYER_SPEED"
+			],
+			[
+				"clear",
+				"love.graphics.clear"
+			],
+			[
+				"key",
+				"keysPressed"
+			],
+			[
+				"display",
+				"display_money(account)"
+			],
+			[
+				"displ",
+				"display_money(account)"
+			],
+			[
+				"w",
+				"window_thread"
+			],
+			[
+				"colro",
+				"color_total"
+			],
+			[
+				"color",
+				"color_total"
+			],
+			[
+				"print",
+				"printArray"
+			],
+			[
+				"ty",
+				"typename"
+			],
+			[
+				"nu",
+				"nullopt"
+			],
+			[
+				"In",
+				"Integer"
+			],
+			[
+				"Ba",
+				"Batype"
+			],
+			[
+				"Bat",
+				"Batype"
+			],
+			[
+				"bat",
+				"batype.hpp\""
+			],
+			[
+				"Visi",
+				"visit_variable"
+			],
+			[
+				"kw",
+				"keywords"
+			],
+			[
+				"U",
+				"UNKNOWN"
+			],
+			[
+				"No",
+				"NodeType"
+			],
+			[
+				"UN",
+				"UNKNOWN"
+			],
+			[
+				"Node",
+				"NodeType"
+			],
+			[
+				"value",
+				"value_as_string"
+			],
+			[
+				"TOKen",
+				"TokenType"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main/java/nut/wingedhoof/init/BlockInit.java",
+			"settings":
+			{
+				"buffer_size": 429,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					10,
+					1,
+					"nv_vi_s",
+					{
+						"count": 1,
+						"mode": "mode_visual",
+						"register": "\""
+					},
+					"AQAAAKUBAAAAAAAApQEAAAAAAAAEAAAAUk9DSw",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAClAQAAAAAAAKkBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"nv_vi_a",
+								{
+									"count": 1,
+									"mode": "mode_internal_normal",
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "ER"
+								}
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"insert",
+								{
+									"characters": "ROCK"
+								}
+							]
+						]
+					},
+					"CAAAAKUBAAAAAAAApgEAAAAAAAAAAAAApgEAAAAAAACnAQAAAAAAAAAAAACmAQAAAAAAAKYBAAAAAAAAAQAAAFKlAQAAAAAAAKUBAAAAAAAAAQAAAEWlAQAAAAAAAKYBAAAAAAAAAAAAAKYBAAAAAAAApwEAAAAAAAAAAAAApwEAAAAAAACoAQAAAAAAAAAAAACoAQAAAAAAAKkBAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACkAQAAAAAAAKQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					30,
+					1,
+					"sequence",
+					{
+						"commands":
+						[
+							[
+								"nv_vi_c",
+								{
+									"count": 1,
+									"mode": "mode_internal_normal",
+									"motion":
+									{
+										"motion": "nv_vi_w",
+										"motion_args":
+										{
+											"count": 1,
+											"mode": "mode_internal_normal"
+										}
+									},
+									"register": "\""
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "i"
+								}
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"left_delete",
+								null
+							],
+							[
+								"delete_word",
+								{
+									"forward": false
+								}
+							],
+							[
+								"insert",
+								{
+									"characters": "ROCK"
+								}
+							]
+						]
+					},
+					"CQAAAKgBAAAAAAAAqAEAAAAAAAABAAAAS6gBAAAAAAAAqQEAAAAAAAAAAAAAqAEAAAAAAACoAQAAAAAAAAEAAABppwEAAAAAAACnAQAAAAAAAAEAAABDpQEAAAAAAAClAQAAAAAAAAIAAABST6UBAAAAAAAApgEAAAAAAAAAAAAApgEAAAAAAACnAQAAAAAAAAAAAACnAQAAAAAAAKgBAAAAAAAAAAAAAKgBAAAAAAAAqQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACoAQAAAAAAAKgBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "src/main/java/nut/wingedhoof/proxy/CommonProxy.java",
+			"settings":
+			{
+				"buffer_size": 150,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					""
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"LuaJIT Run File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"Lua Run File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: File"
+				],
+				[
+					"Packages/Lua Love/LuaLove.sublime-build",
+					"ldoc: Project"
+				]
+			],
+			[
+				"Packages/Lua Love/LuaLove.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"enable",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disa",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"jdtl",
+				"LSP-jdtls: Clear data"
+			],
+			[
+				"en",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"ena",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"jtdls",
+				"LSP-jdtls: Build Workspace"
+			],
+			[
+				"enalb",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disab",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remogve",
+				"Package Control: Remove Package"
+			],
+			[
+				"enalbe",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disal",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"lsp enabl",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"syntax cm",
+				"Set Syntax: CMake"
+			],
+			[
+				"lsp forma",
+				"LSP: Format File"
+			],
+			[
+				"syntax c+",
+				"Set Syntax: C++"
+			],
+			[
+				"lsp fo",
+				"LSP: Format File"
+			],
+			[
+				"preferences sett",
+				"Preferences: Settings"
+			],
+			[
+				"lsp form",
+				"LSP: Format File"
+			],
+			[
+				"syntax lo",
+				"Set Syntax: LOVE"
+			],
+			[
+				"lsp format",
+				"LSP: Format File"
+			],
+			[
+				"formatter",
+				"Formatter: Quick Options"
+			],
+			[
+				"lspformat",
+				"LSP: Format File"
+			],
+			[
+				"forma",
+				"LSP: Format File"
+			],
+			[
+				"formate",
+				"LSP: Format File"
+			],
+			[
+				"ctrl",
+				"NeoVintageous: Toggle CTRL keys"
+			],
+			[
+				"LOVE",
+				"Set Syntax: LOVE"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"syntax love",
+				"Set Syntax: LOVE"
+			],
+			[
+				"syntax:lov",
+				"Set Syntax: LOVE"
+			],
+			[
+				"lsp-lua",
+				"Preferences: LSP-lua Settings"
+			],
+			[
+				"lvoe",
+				"Set Syntax: LOVE"
+			],
+			[
+				"new file",
+				"File: New View into File"
+			],
+			[
+				"love",
+				"Preferences: LuaLove Settings"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"lsp",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"terminus",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"termin",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"INSTLL",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"gitbl",
+				"Git: Blame"
+			],
+			[
+				"enabl",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"dis",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"rust",
+				"Set Syntax: Rust"
+			],
+			[
+				"syntax c++",
+				"Set Syntax: C++"
+			],
+			[
+				"lsp en",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"insa",
+				"Help: Indexing Status"
+			],
+			[
+				"lsp ",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"hightl",
+				"HighlightWords: Toggle Settings"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"todo",
+				"Set Syntax: Todo"
+			],
+			[
+				"lsp dis",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"eanble",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"disable",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"enal",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"enabe",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"rmeove",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"enab",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp di",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"liverela",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"lsp: enabl",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp: ",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"lsp ena",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"lsp-jt",
+				"LSP-jdtls: Clear data"
+			],
+			[
+				"d",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"disble",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"lsp disa",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"lsp enab",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"build",
+				"LSP-jdtls: Build Workspace"
+			],
+			[
+				"glsl",
+				"Set Syntax: GLSL"
+			],
+			[
+				"jtd",
+				"LSP-jdtls: Clear data"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"jtdsl",
+				"LSP-jdtls: Build Workspace"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"jdtls",
+				"Preferences: LSP-jdtls Settings"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"reove",
+				"BracketHighlighter: Remove Brackets"
+			],
+			[
+				"jd",
+				"Preferences: LSP-jdtls Settings"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"thee",
+				"Material Theme: Extras"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"temrinus open",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"line",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"termi",
+				"Preferences: Terminal Key Bindings"
+			],
+			[
+				"terminus: op",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"synteax",
+				"Set Syntax: TeX"
+			],
+			[
+				"syntext",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syntex",
+				"Set Syntax: TeX"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Key Bindings"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"status",
+				"Git: Status"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"comm",
+				"Git: Commit history"
+			],
+			[
+				"ejs",
+				"Set Syntax: EJS (<% %>)"
+			],
+			[
+				"colo\t",
+				"UI: Select Color Scheme"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"syntax ejs",
+				"Set Syntax: EJS (<% %>)"
+			],
+			[
+				"lsp:",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"REMOVE",
+				"Package Control: Remove Package"
+			],
+			[
+				"livereload",
+				"Snippet: Create new LiveReload plugin"
+			],
+			[
+				"lisp",
+				"Set Syntax: Lisp"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax:er",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"set syntax c",
+				"Set Syntax: C"
+			],
+			[
+				"clangd",
+				"LSP-clangd: Switch to Source/Header"
+			],
+			[
+				"coffe",
+				"Set Syntax: CoffeScript"
+			],
+			[
+				"wor",
+				"Word Wrap: Toggle"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax",
+				"Set Syntax: Python"
+			],
+			[
+				"pyrith",
+				"Preferences: LSP-pyright Settings"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 212.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/vako/Documents/WingedHoof",
+		"/home/vako/Documents/WingedHoof/src",
+		"/home/vako/Documents/WingedHoof/src/main"
+	],
+	"file_history":
+	[
+		"/home/vako/Documents/WingedHoof/README.md",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/lunarbat.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/lunarbat.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/runtime/environment.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/environment.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/runtime/interpreter.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/parser.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/parsing/parser.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/main.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/interpreter.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/todo.md",
+		"/home/vako/Documents/cpp/lunarbat-git/README.md",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/error.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/utils.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/parsing/lexer.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/token.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/position.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/node.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/lexer.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/types/node.cpp",
+		"/home/vako/Documents/WingedHoof/src/main/java/nut/wingedhoof/WingedHoof.java",
+		"/home/vako/Documents/WingedHoof/src/main/java/nut/wingedhoof/proxy/CommonProxy.java",
+		"/home/vako/Documents/WingedHoof/src/main/java/nut/wingedhoof/proxy/ClientProxy.java",
+		"/home/vako/Documents/a/src/main/java/nut/wingedhoof/WingedHoof.java",
+		"/home/vako/Documents/WingedHoof/build.gradle",
+		"/home/vako/Documents/a/src/main/java/nut/wingedhoof/Main.java",
+		"/home/vako/Documents/a/src/main/resources/mcmod.info",
+		"/home/vako/Documents/a/src/main/resources/pack.mcmeta",
+		"/home/vako/Downloads/forge-1.12.2-14.23.5.2859-mdk/build.gradle",
+		"/home/vako/Downloads/forge-1.12.2-14.23.5.2859-mdk/gradle.properties",
+		"/home/vako/Documents/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/wingedhoof/Main.java",
+		"/home/vako/Downloads/forge-1.12.2-14.23.5.2859-mdk/src/main/resources/mcmod.info",
+		"/home/vako/Downloads/forge-1.12.2-14.23.5.2859-mdk/src/main/resources/pack.mcmeta",
+		"/home/vako/Documents/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/wingedhoof/proxy/ClientProxy.java",
+		"/home/vako/Downloads/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/wingedhoof/ExampleMod.java",
+		"/home/vako/Documents/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/wingedhoof/proxy/CommonProxy.java",
+		"/home/vako/Documents/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/wingedhoof/WingedHoof.java",
+		"/home/vako/Documents/forge-1.12.2-14.23.5.2859-mdk/build.gradle",
+		"/home/vako/Documents/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/winged/hoof/ExampleMod.java",
+		"/home/vako/Documents/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/winged/hoof/Main.java",
+		"/home/vako/Downloads/forge-1.12.2-14.23.5.2859-mdk/src/main/java/nut/winged/hoof/ExampleMod.java",
+		"/home/vako/Downloads/forge-1.12.2-14.23.5.2859-mdk/src/main/java/com/example/examplemod/ExampleMod.java",
+		"/home/vako/Documents/WingedHoof-main/src/main/java/nut/winged/hoof/Main.java",
+		"/home/vako/Documents/WingedHoof-main/src/main/java/nut/winged/hoof/WingedHoof.java",
+		"/home/vako/Documents/WingedHoof-main/src/main/java/nut/winged/hoof/proxy/CommonProxy.java",
+		"/home/vako/Documents/WingedHoof-main/src/main/java/nut/winged/hoof/proxy/ClientProxy.java",
+		"/home/vako/.config/sublime-text/Packages/HighlightWords/HighlightWords.sublime-settings",
+		"/home/vako/Documents/lyn/part1/Main.java",
+		"/home/vako/Documents/lyn/part2/Main.java",
+		"/home/vako/.config/sublime-text/Packages/User/HighlightWords.sublime-settings",
+		"/home/vako/Documents/cpp/lunarbat-git/valgrind.sh",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/values.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/headers/response.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/lunarbat-devlog.md",
+		"/home/vako/Documents/cpp/lunarbat-git/CMakeLists.txt",
+		"/home/vako/Documents/cpp/lunarbat-git/Makefile",
+		"/home/vako/.config/sublime-text/Packages/User/BashRunCmake.sublime-build",
+		"/home/vako/Documents/cpp/vars.cpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/result.hpp",
+		"/home/vako/Documents/cpp/batlang/src/helpers/result.cpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/batype.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/types/value.cpp",
+		"/home/vako/Documents/cpp/vars2.cpp",
+		"/home/vako/Documents/cpp/vars2",
+		"/home/vako/Documents/cpp/lunarbat-git/src/interpreter/parser.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/interpreter/lexer.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/src/interpreter/interpreter.cpp",
+		"/home/vako/Documents/cpp/main.cpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/parser.hpp",
+		"/home/vako/Documents/cpp/batlang/src/interpreter/parser.cpp",
+		"/home/vako/Documents/cpp/batlang/src/interpreter/interpreter.cpp",
+		"/home/vako/Documents/cpp/lunarbat-git/lunarbat-diary.md",
+		"/home/vako/Documents/cpp/lunarbat-git/src/types/token.cpp",
+		"/home/vako/Downloads/guardar/lunarbat-diary.md",
+		"/home/vako/Documents/cpp/lunarbat-git/test.lb",
+		"/home/vako/Documents/cpp/lunarbat-git/src/helpers/position.cpp",
+		"/usr/include/editline.h",
+		"/home/vako/Documents/cpp/lunarbat-git/include/editline.h",
+		"/home/vako/Documents/cpp/lunarbat-git/include/linux_editline.h",
+		"/home/vako/Documents/cpp/batlang/src/main.cpp",
+		"/home/vako/Documents/cpp/batlang/src/batlang.cpp",
+		"/home/vako/Documents/cpp/batlang/src/interpreter/lexer.cpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/node.hpp",
+		"/home/vako/Documents/cpp/lunarbat-git/run.sh",
+		"/home/vako/Documents/cpp/batlang/README.md",
+		"/home/vako/Documents/cpp/lunarbat-git/src/helpers/error.hpp",
+		"/home/vako/Documents/cpp/lunarbat/src/headers/parser.hpp",
+		"/home/vako/Documents/cpp/lunarbat/src/headers/token.hpp",
+		"/home/vako/Documents/cpp/lunarbat/src/headers/node.hpp",
+		"/home/vako/Documents/cpp/lunarbat/src/main.cpp",
+		"/home/vako/Documents/cpp/lunarbat/src/interpreter/parser.cpp",
+		"/home/vako/Documents/cpp/lunarbat/src/headers/lexer.hpp",
+		"/home/vako/Documents/cpp/lunarbat/src/interpreter/lexer.cpp",
+		"/home/vako/Documents/cpp/batlang/src/types/node.cpp",
+		"/home/vako/Documents/lua/love2d/dvd/main.lua",
+		"/home/vako/Documents/cpp/lunarbat/src/headers/error.hpp",
+		"/home/vako/Documents/cpp/lunarbat/src/helpers/error.cpp",
+		"/home/vako/Documents/cpp/lunarbat/src/headers/position.hpp",
+		"/home/vako/Documents/cpp/lunarbat/src/helpers/position.cpp",
+		"/home/vako/Documents/cpp/lunarbat/src/headers/utils.hpp",
+		"/home/vako/Documents/cpp/lunarbat/include/editline.h",
+		"/home/vako/Documents/cpp/batlang/src/headers/lexer.hpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/token.hpp",
+		"/home/vako/Documents/cpp/show_error.cpp",
+		"/home/vako/Documents/cpp/lunarbat/src/types/token.cpp",
+		"/home/vako/Documents/cpp/batlang/src/helpers/batring.cpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/error.hpp",
+		"/usr/include/c++/12/array",
+		"/home/vako/Documents/cpp/batlang/src/helpers/position.cpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/batlang.hpp",
+		"/home/vako/Documents/cpp/batlang/src/helpers/error.cpp",
+		"/home/vako/Documents/cpp/batlang/src/headers/position.hpp",
+		"/home/vako/Documents/cpp/batlang/src/types/token.cpp",
+		"/usr/include/c++/12/bits/stl_vector.h",
+		"/usr/include/ctype.h",
+		"/usr/include/c++/12/cctype",
+		"/home/vako/Documents/lua/chiro/main.lua",
+		"/home/vako/Documents/lyn/Main.java",
+		"/home/vako/Documents/lyn/main.py",
+		"/home/vako/Documents/lua/main.lua",
+		"/home/vako/Documents/Main.java",
+		"/home/vako/Documents/main.cpp",
+		"/home/vako/Documents/main.c",
+		"/home/vako/Documents/lua/love2d/doom/src/glob.lua",
+		"/home/vako/Documents/lua/love2d/doom/src/level.lua",
+		"/home/vako/Documents/lua/love2d/doom/src/walls.lua",
+		"/home/vako/Documents/lua/love2d/doom/src/sectors.lua",
+		"/home/vako/Documents/lua/love2d/doom/src/sprites.lua"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 448.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main/java/nut/wingedhoof/init/BlockInit.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 429,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								265,
+								331
+							]
+						],
+						"settings":
+						{
+							"_nv_visual_sel_mode": "mode_visual",
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".@#* ",
+									"registration_id": "96336649-5f10-4447-a69a-e1b790183329",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "jdtls"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"highlight_gutter": false,
+							"highlight_line": false,
+							"lsp_active": true,
+							"lsp_hover_provider_count": 3,
+							"lsp_uri": "file:///home/vako/Documents/WingedHoof/src/main/java/nut/wingedhoof/init/BlockInit.java",
+							"show_definitions": false,
+							"show_line_column": "disabled",
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/main/java/nut/wingedhoof/proxy/CommonProxy.java",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								150,
+								150
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html, text.xml"
+								},
+								{
+									"rhs_empty": true,
+									"selector": "punctuation.accessor"
+								},
+								{
+									"characters": ".@#* ",
+									"selector": "meta.tag, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc",
+									"server": "jdtls"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										149,
+										150
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"region.purplish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										89,
+										90
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"highlight_gutter": true,
+							"highlight_line": true,
+							"lsp_active": true,
+							"lsp_hover_provider_count": 2,
+							"lsp_uri": "file:///home/vako/Documents/WingedHoof/src/main/java/nut/wingedhoof/proxy/CommonProxy.java",
+							"show_definitions": false,
+							"show_line_column": "disabled",
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.LSP Log Panel":
+	{
+		"height": 208.0
+	},
+	"output.Terminus":
+	{
+		"height": 108.0
+	},
+	"output.diagnostics":
+	{
+		"height": 421.0
+	},
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 120.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups-dummy":
+	{
+		"height": 0.0
+	},
+	"output.references":
+	{
+		"height": 120.0
+	},
+	"pinned_build_system": "Packages/User/BashRunCmake.sublime-build",
+	"project": "wingedhoof.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"envi",
+				"src/runtime/environment.cpp"
+			],
+			[
+				"inter",
+				"src/headers/interpreter.hpp"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"todo",
+				"todo.md"
+			],
+			[
+				"main",
+				"src/main.cpp"
+			],
+			[
+				"lunar",
+				"src/headers/lunarbat.hpp"
+			],
+			[
+				"lu",
+				"src/lunarbat.cpp"
+			],
+			[
+				"lex",
+				"src/parsing/lexer.cpp"
+			],
+			[
+				"le",
+				"src/parsing/lexer.cpp"
+			],
+			[
+				"err",
+				"src/headers/error.hpp"
+			],
+			[
+				"erro",
+				"src/headers/error.hpp"
+			],
+			[
+				"mai",
+				"src/main.cpp"
+			],
+			[
+				"toke",
+				"src/headers/token.hpp"
+			],
+			[
+				"pos",
+				"src/headers/position.hpp"
+			],
+			[
+				"node",
+				"src/headers/node.hpp"
+			],
+			[
+				"uti",
+				"src/headers/utils.hpp"
+			],
+			[
+				"par",
+				"src/headers/parser.hpp"
+			],
+			[
+				"lun",
+				"src/lunarbat.cpp"
+			],
+			[
+				"itner",
+				"src/runtime/interpreter.cpp"
+			],
+			[
+				"token",
+				"src/headers/token.hpp"
+			],
+			[
+				"cmak",
+				"CMakeLists.txt"
+			],
+			[
+				"cmae",
+				"CMakeLists.txt"
+			],
+			[
+				"val",
+				"valgrind.sh"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"cmake",
+				"CMakeLists.txt"
+			],
+			[
+				"parser",
+				"src/parsing/parser.cpp"
+			],
+			[
+				"env",
+				"src/headers/environment.hpp"
+			],
+			[
+				"resp",
+				"src/headers/response.hpp"
+			],
+			[
+				"log",
+				"lunarbat-devlog.md"
+			],
+			[
+				"value",
+				"src/types/value.cpp"
+			],
+			[
+				"ut",
+				"src/headers/utils.hpp"
+			],
+			[
+				"luan",
+				"src/headers/lunarbat.hpp"
+			],
+			[
+				"lua",
+				"src/lunarbat.cpp"
+			],
+			[
+				"utl",
+				"src/headers/utils.hpp"
+			],
+			[
+				"ma",
+				"src/main.cpp"
+			],
+			[
+				"valu",
+				"src/headers/values.hpp"
+			],
+			[
+				"tdo",
+				"todo.md"
+			],
+			[
+				"tes",
+				"test.lb"
+			],
+			[
+				"to",
+				"todo.md"
+			],
+			[
+				"test",
+				"test.lb"
+			],
+			[
+				"pa",
+				"src/interpreter/parser.cpp"
+			],
+			[
+				"parse",
+				"src/interpreter/parser.cpp"
+			],
+			[
+				"edit",
+				"include/editline.h"
+			],
+			[
+				"tod",
+				"todo.md"
+			],
+			[
+				"posi",
+				"src/headers/position.hpp"
+			],
+			[
+				"ar",
+				"src/interpreter/parser.cpp"
+			],
+			[
+				"run",
+				"run.sh"
+			],
+			[
+				"l",
+				"src/headers/lexer.hpp"
+			],
+			[
+				"nde",
+				"src/headers/node.hpp"
+			],
+			[
+				"",
+				"src/interpreter/parser.cpp"
+			],
+			[
+				"tok",
+				"src/headers/token.hpp"
+			],
+			[
+				"eror",
+				"src/headers/error.hpp"
+			],
+			[
+				"po",
+				"src/headers/position.hpp"
+			],
+			[
+				"lexer",
+				"src/headers/lexer.hpp"
+			],
+			[
+				"toe",
+				"src/headers/token.hpp"
+			],
+			[
+				"tex",
+				"src/texman.lua"
+			],
+			[
+				"walls",
+				"src/walls.lua"
+			],
+			[
+				"glo",
+				"src/glob.lua"
+			],
+			[
+				"glob",
+				"src/glob.lua"
+			],
+			[
+				"red",
+				"README.md"
+			],
+			[
+				"level",
+				"resources/levels/level.h"
+			],
+			[
+				"texm",
+				"src/texman.lua"
+			],
+			[
+				"re",
+				"README.md"
+			],
+			[
+				"gl",
+				"src/glob.lua"
+			],
+			[
+				"gob",
+				"src/glob.lua"
+			],
+			[
+				"wall",
+				"src/walls.lua"
+			],
+			[
+				"leve",
+				"src/level.lua"
+			],
+			[
+				"conf",
+				"conf.lua"
+			],
+			[
+				"play",
+				"src/player.lua"
+			],
+			[
+				"wal",
+				"src/walls.lua"
+			],
+			[
+				"pla",
+				"src/player.lua"
+			],
+			[
+				"se",
+				"src/sectors.lua"
+			],
+			[
+				"con",
+				"config.lua"
+			],
+			[
+				"runsh",
+				"run.sh"
+			],
+			[
+				"numer",
+				"src/headers/number.hpp"
+			],
+			[
+				"resu",
+				"src/helpers/result.cpp"
+			],
+			[
+				"nuemr",
+				"src/batypes/number.cpp"
+			],
+			[
+				"baty",
+				"src/headers/batype.hpp"
+			],
+			[
+				"lexe",
+				"src/headers/lexer.hpp"
+			],
+			[
+				"batla",
+				"src/batlang.cpp"
+			],
+			[
+				"contex",
+				"src/headers/context.hpp"
+			],
+			[
+				"batype",
+				"src/headers/batype.hpp"
+			],
+			[
+				"en",
+				"src/headers/environment.hpp"
+			],
+			[
+				"number",
+				"src/types/number.cpp"
+			],
+			[
+				"num",
+				"src/types/number.cpp"
+			],
+			[
+				"er",
+				"src/helpers/error.cpp"
+			],
+			[
+				"nume",
+				"src/types/number.cpp"
+			],
+			[
+				"posit",
+				"src/headers/position.hpp"
+			],
+			[
+				"ars",
+				"src/headers/parser.hpp"
+			],
+			[
+				"pars",
+				"src/interpreter/parser.cpp"
+			],
+			[
+				"nod",
+				"src/types/node.cpp"
+			],
+			[
+				"res",
+				"src/headers/result.hpp"
+			],
+			[
+				"numb",
+				"src/headers/number.hpp"
+			],
+			[
+				"batring",
+				"src/headers/batring.hpp"
+			],
+			[
+				"bat",
+				"src/batlang.cpp"
+			],
+			[
+				"nu",
+				"src/types/number.cpp"
+			],
+			[
+				"tokenc",
+				"src/types/token.cpp"
+			],
+			[
+				"int",
+				"src/interpreter/interpreter.cpp"
+			],
+			[
+				"down",
+				"tests/download-images.py"
+			],
+			[
+				"mic",
+				"tests/mic.py"
+			],
+			[
+				"batlan",
+				"src/batlang.cpp"
+			],
+			[
+				"conte",
+				"src/headers/context.hpp"
+			],
+			[
+				"error",
+				"src/headers/error.hpp"
+			],
+			[
+				"batrin",
+				"src/helpers/batring.cpp"
+			],
+			[
+				"result",
+				"src/headers/result.hpp"
+			],
+			[
+				"resul",
+				"src/headers/result.hpp"
+			],
+			[
+				"rest",
+				"src/helpers/result.cpp"
+			],
+			[
+				"numebr",
+				"src/types/number.cpp"
+			],
+			[
+				"nodes",
+				"build/CMakeFiles/batlang.dir/src/types/nodes.cpp.o.d"
+			],
+			[
+				"batl",
+				"src/batlang.cpp"
+			],
+			[
+				"lexr",
+				"src/headers/lexer.hpp"
+			],
+			[
+				"batr",
+				"src/headers/batring.hpp"
+			],
+			[
+				"man",
+				"src/main.cpp"
+			],
+			[
+				"token.cp",
+				"src/types/token.cpp"
+			],
+			[
+				"min",
+				"src/main.cpp"
+			],
+			[
+				"pasr",
+				"src/parser/parser.cpp"
+			],
+			[
+				"edi",
+				"src/headers/editline.h"
+			],
+			[
+				"arser",
+				"src/headers/parser.hpp"
+			],
+			[
+				"lee",
+				"src/headers/lexer.hpp"
+			],
+			[
+				"tokn",
+				"src/token.cpp"
+			],
+			[
+				"font",
+				"src/main/java/com/magenta/engine/Font/FontRender.java"
+			],
+			[
+				"shad",
+				"src/main/java/com/magenta/render/ShaderProgram.java"
+			],
+			[
+				"sha",
+				"src/main/java/com/magenta/render/ShaderProgram.java"
+			],
+			[
+				"mesh",
+				"src/main/java/com/magenta/render/mesh/Mesh.java"
+			],
+			[
+				"blockloa",
+				"src/main/java/com/magenta/game/block/BlockLoader.java"
+			],
+			[
+				"aim.",
+				"src/main/java/com/magenta/game/Aim.java"
+			],
+			[
+				"aim",
+				"src/main/resources/shaders/aim/fragment.glsl"
+			],
+			[
+				"render",
+				"src/main/java/com/magenta/main/Renderer.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 252.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 535.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 175.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

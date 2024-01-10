@@ -1,0 +1,16 @@
+[
+{
+  "modid": "wingedhoof",
+  "name": "WingedHoof",
+  "description": "Rodrigo Rodrigo Rodrigo Rodrigo Rodrigo",
+  "version": "0.0.1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["vako", "Chiro"],
+  "credits": "Vako e Chiro <3",
+  "logoFile": "pack.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]

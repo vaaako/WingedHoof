@@ -1,0 +1,24 @@
+itemGroup.wingedhoof_tab-WingedHoof
+itemGroup.wingedhoof=WingedHof Tab
+
+// Blocks
+tile.amber_ore.name=Amber Ore
+tile.amber_block.name=Amber Block
+tile.palladium_block.name=Palladium Block
+
+// Armor
+item.palladium_sword.name=Palladium Sword
+item.palladium_axe.name=Palladium Axe
+item.palladium_pickaxe.name=Palladium Pickaxe
+item.palladium_hoe.name=Palladium Hoe
+
+// Tools
+item.palladium_helmet.name=Palladium Helmet
+item.palladium_chestplate.name=Palladium Chestplate
+item.palladium_leggins.name=Palladium Leggins
+item.palladium_boots.name=Palladium Boots
+
+// Items
+item.amber.name=Amber
+item.palladium.name=Palladium
+

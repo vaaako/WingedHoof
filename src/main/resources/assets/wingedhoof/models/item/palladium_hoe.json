@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "wingedhoof:items/palladium_hoe"
+	}
+}
