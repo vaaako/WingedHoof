@@ -1,6 +1,7 @@
 package nut.wingedhoof.items.tools;
 
 import nut.wingedhoof.WingedHoof;
+import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.util.IRegisterable;
 
@@ -15,8 +16,6 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 
-import net.minecraft.creativetab.CreativeTabs;
-
 public class ToolItem extends ItemTool implements IRegisterable {
 private static Set<Block> EFFECTIVE_ON = new HashSet<>(Arrays.asList(/* blocks go here */));
 
@@ -25,7 +24,7 @@ private static Set<Block> EFFECTIVE_ON = new HashSet<>(Arrays.asList(/* blocks g
 		super(material, EFFECTIVE_ON);
 
 		updateRegistryAndLocalizedName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(WingedHoof.CREATIVE_TAB);
 
 		ItemInit.ITEMS.add(this);
 	}

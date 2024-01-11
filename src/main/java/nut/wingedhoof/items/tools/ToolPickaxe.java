@@ -1,20 +1,19 @@
 package nut.wingedhoof.items.tools;
 
 import nut.wingedhoof.WingedHoof;
+import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.util.IRegisterable;
 
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.Item.ToolMaterial;
 
-import net.minecraft.creativetab.CreativeTabs;
-
 public class ToolPickaxe extends ItemPickaxe implements IRegisterable {
 	public ToolPickaxe(String name, ToolMaterial material) {
 		super(material);
 
 		updateRegistryAndLocalizedName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(WingedHoof.CREATIVE_TAB);
 
 		ItemInit.ITEMS.add(this);
 	}

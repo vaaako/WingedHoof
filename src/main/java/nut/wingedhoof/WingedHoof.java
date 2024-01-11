@@ -1,17 +1,22 @@
 package nut.wingedhoof;
 
 import nut.wingedhoof.proxy.CommonProxy;
+import nut.wingedhoof.tabs.WingedHoofTab;
+import nut.wingedhoof.handlers.RegistryEvent;
 
-import net.minecraft.init.Blocks;
+import net.minecraft.creativetab.CreativeTabs;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 
-import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import org.apache.logging.log4j.Logger;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
+
 
 @Mod(modid = WingedHoof.MODID, name = WingedHoof.NAME, version = WingedHoof.VERSION)
 public class WingedHoof {
@@ -22,6 +27,8 @@ public class WingedHoof {
 	public static final String CLIENT = "nut.wingedhoof.proxy.ClientProxy";
 	public static final String SERVER = "nut.wingedhoof.proxy.CommonProxy";
 
+	public static final CreativeTabs CREATIVE_TAB = new WingedHoofTab("wingedhooftab");
+
 	@Instance
 	public static WingedHoof instance;
 
@@ -30,37 +37,23 @@ public class WingedHoof {
 
 
 	/* EVENTS */
-	private static Logger logger;
-
 	@EventHandler
-	public void preInit(FMLPreInitializationEvent event) {
-		logger = event.getModLog();
+	public static void preInit(FMLPreInitializationEvent event)  {
+		RegistryEvent.preInitRegistries(event);
 	}
-
+	
 	@EventHandler
-	public void init(FMLInitializationEvent event) {
-		// some example code
-		logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+	public static void init(FMLInitializationEvent event) {
+		RegistryEvent.initRegistries(event);
 	}
-
-
-	// @EventHandler
-	// public static void preInit(FMLPreInitializationEvent event)  {
-	// 	RegistryHandler.preInitRegistries(event);
-	// }
 	
-	// @EventHandler
-	// public static void init(FMLInitializationEvent event) {
-	// 	RegistryHandler.initRegistries(event);
-	// }
+	@EventHandler
+	public static void postInit(FMLPostInitializationEvent event) {
+		RegistryEvent.postInitRegistries(event);
+	}
 	
-	// @EventHandler
-	// public static void postInit(FMLPostInitializationEvent event) {
-	// 	RegistryHandler.postInitRegistries(event);
-	// }
-	
-	// @EventHandler
-	// public static void serverInit(FMLServerStartingEvent event) {
-	// 	RegistryHandler.serverRegistries(event);
-	// }
+	@EventHandler
+	public static void serverInit(FMLServerStartingEvent event) {
+		RegistryEvent.serverRegistries(event);
+	}
 }

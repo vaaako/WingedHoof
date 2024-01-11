@@ -1,10 +1,10 @@
 package nut.wingedhoof.items;
 
 import nut.wingedhoof.WingedHoof;
+import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.util.IRegisterable;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 public class ItemBase extends Item implements IRegisterable {
@@ -14,7 +14,7 @@ public class ItemBase extends Item implements IRegisterable {
 		this.name = name;
 
 		updateRegistryAndLocalizedName(name);
-		setCreativeTab(CreativeTabs.MATERIALS);
+		setCreativeTab(WingedHoof.CREATIVE_TAB);
 
 		// Add this item to mod items
 		ItemInit.ITEMS.add(this);

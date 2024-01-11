@@ -1,6 +1,7 @@
 package nut.wingedhoof.blocks;
 
 import nut.wingedhoof.WingedHoof;
+import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.BlockInit;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.util.IRegisterable;
@@ -14,7 +15,6 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.block.material.Material;
-import net.minecraft.creativetab.CreativeTabs;
 
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.MathHelper;
@@ -63,7 +63,7 @@ public class OreBase extends Block implements IRegisterable {
 
 	private void init() {
 		updateRegistryAndLocalizedName(name);
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(WingedHoof.CREATIVE_TAB);
 
 		setHardness(hardness);
 		setResistance(resistance);

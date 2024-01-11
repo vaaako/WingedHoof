@@ -22,22 +22,21 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.init.SoundEvents;
 import net.minecraftforge.common.util.EnumHelper;
 
-
 public class ItemInit {
 	// All items
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 
 	/* MATERIAL */
 	public static final ToolMaterial TOOL_PALLADIUM = EnumHelper.addToolMaterial("tool_palladium",
-		3,    // Harvest Level
-		2000, // Durability
-		12.0f, // Efficiency (not used for swords)
-		5.0f, // Damage (It sums base +4)
-		12    // Enchantability
+		3,        // Harvest Level
+		2031,     // Durability
+		12.0f,    // Efficiency (not used for swords)
+		9.0f - 4, // Damage (It sums base damage (e.g. sword base damage is +4))
+		12        // Enchantability
 	);
 	
 	public static final ArmorMaterial ARMOR_PALLADIUM = EnumHelper.addArmorMaterial("armor_palladium", WingedHoof.MODID + ":palladium",
-		80,                                // Durability (mutiplied by base 5)
+		400 / 5,                           // Durability (mutiplied by base 5 for some reason)
 		new int[]{ 5, 10, 12, 5 },         // Damage Reduction (HEAD, LEG, CHEST, BOOT)
 		12,                                // Enchantability
 		SoundEvents.ITEM_ARMOR_EQUIP_IRON, // Sound on equip
@@ -84,17 +83,18 @@ public class ItemInit {
 3 = DIAMOND
 
 - DURABILITY -
-32 = GOLD
-59 = WOOD
-131 = STONE
-250 = IRON
-1561 = DIAMOND
+32    = GOLD
+59    = WOOD
+131   = STONE
+250   = IRON
+1561  = DIAMOND
+2031  = DIAMOND
 
 - EFFICIENCY -
-2 = WOOD
-4 = STONE
-6 = IRON
-8 = DIAMOND
+2  = WOOD
+4  = STONE
+6  = IRON
+8  = DIAMOND
 12 = GOLD
 */
 

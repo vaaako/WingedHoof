@@ -1,6 +1,7 @@
 package nut.wingedhoof.items.armor;
 
 import nut.wingedhoof.WingedHoof;
+import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.util.IRegisterable;
 
@@ -8,14 +9,13 @@ import net.minecraft.item.ItemArmor;
 
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.ItemArmor;
-import net.minecraft.creativetab.CreativeTabs;
 
 public class ArmorBase extends ItemArmor implements IRegisterable {
 	public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn) {
 		super(materialIn, renderIndexIn, equipmentSlotIn);
 
 		updateRegistryAndLocalizedName(name);
-		setCreativeTab(CreativeTabs.TOOLS);
+		setCreativeTab(WingedHoof.CREATIVE_TAB);
 
 		// Add this item to mod items
 		ItemInit.ITEMS.add(this);
