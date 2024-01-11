@@ -11,7 +11,9 @@ import net.minecraft.creativetab.CreativeTabs;
 
 public class ToolAxe extends ItemAxe implements IRegisterable {
 	public ToolAxe(String name, ToolMaterial material, float damage, float speed) {
-		super(material, damage - 1, speed); // For some reason the damage is incresead by one (???)
+		// For some reason the damage is incresead by one (???)
+		// And base speed is 4 (???), the math i did is for the speed be what i want
+		super(material, damage - 1, (4 - speed) * -1);
 
 		updateRegistryAndLocalizedName(name);
 		setCreativeTab(CreativeTabs.TOOLS);

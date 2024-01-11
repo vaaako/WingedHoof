@@ -52,7 +52,7 @@ public class ItemInit {
 
 	/* TOOLS */ 
 	public static final Item PALLADIUM_SWORD = new ToolSword("palladium_sword", TOOL_PALLADIUM);
-	public static final Item PALLADIUM_AXE = new ToolAxe("palladium_axe", TOOL_PALLADIUM, 12.0f, 0.8f);
+	public static final Item PALLADIUM_AXE = new ToolAxe("palladium_axe", TOOL_PALLADIUM, 12.0f, 1.0f);
 	public static final Item PALLADIUM_PICKAXE = new ToolPickaxe("palladium_pickaxe", TOOL_PALLADIUM);
 	public static final Item PALLADIUM_HOE = new ToolHoe("palladium_hoe", TOOL_PALLADIUM);
 
