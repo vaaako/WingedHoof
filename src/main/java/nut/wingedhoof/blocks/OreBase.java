@@ -89,11 +89,16 @@ public class OreBase extends Block implements IRegisterable {
 
 	@Override
 	public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-		drops.add(new ItemStack(dropItem));
+		Random random = world instanceof World ? ((World)world).rand : new Random();
+
+		// Drop item based on the fortune level
+		for (int i = 0; i < MathHelper.getInt(random, 1, (fortune + 1)); i++) {
+			drops.add(new ItemStack(dropItem));
+		}
+
 		super.getDrops(drops, world, pos, state, fortune);
 	}
 
-	// TODO -- The following two functions can be placed on other class called "BlockOreBase" or the values can be passed as class paramter
 	@Override
 	public int quantityDropped(IBlockState state, int fortune, Random random) {
 		if(dropItem == null)
@@ -104,8 +109,8 @@ public class OreBase extends Block implements IRegisterable {
 	@Override
 	public int getExpDrop(IBlockState state, IBlockAccess world, BlockPos pos, int fortune) {
 		// Return the amount of experience points to drop
-		Random random = world instanceof World ? ((World)world).rand : new Random();
-		return MathHelper.getInt(random, 1, maxExp);
+		Random random = world instanceof World ? ((World)world).rand : new Random();	
+		return MathHelper.getInt(random, 1, maxExp + (fortune + 1)); // Also drop xp based on the fortune level
 	}
 
 	@Override

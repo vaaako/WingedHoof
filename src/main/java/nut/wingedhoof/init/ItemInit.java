@@ -98,13 +98,16 @@ public class ItemInit {
 12 = GOLD
 */
 
+
+
+
 /*
 - ARMOR STATS MEANING -
-DURABILITY = How many damage can the armor take before break
-REDUCTION = Damage absorved by the armor (e.g. 3 = Damage - 3)
+DURABILITY     = How many damage can the armor take before break
+REDUCTION      = Damage absorved by the armor (e.g. 3 = Damage - 3)
 ENCHANTABILITY = How often will receive good enchantment
-SOUND = What sound play on equip
-TOUGHNESS = Resistance for certain types of damage (explosion for example)
+SOUND          = What sound play on equip
+TOUGHNESS      = Resistance for certain types of damage (explosion for example)
 
 - DURABILITY -
 LOW    = 1 - 50
@@ -120,8 +123,10 @@ HIGH   = 11 - 20
 LOW    = 0.5 - 1.5
 MEDIUM = 1.6 - 2.5
 HIGH   = 2.6 - 3.0
-
 */
+
+
+
 
 /*
 - ENCHANTABILITY -
