@@ -4,16 +4,11 @@ import java.util.Set;
 import java.util.Collections;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.interfaces.IRegisterable;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemTool;
-import net.minecraft.item.Item.ToolMaterial;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.block.state.IBlockState;
 
 public class ToolItem extends ItemTool implements IRegisterable {
 	// For some reason the damage is incresead by three (???)
@@ -39,19 +34,6 @@ public class ToolItem extends ItemTool implements IRegisterable {
 		ItemInit.ITEMS.add(this);
 	}
 
-	// public float getStrVsBlock(ItemStack stack, IBlockState state) {
-	// 	Material material = state.getMaterial();
-	// 	return material != (Material.WOOD && material != Material.PLANTS && material != Material.VINE)
-	// 		? super.getStrVsBlock(stack, state) : this.efficiencyOnProperMaterial;
-	// }
-
-	private float calcDamage(float damage) {
-		return (3 - damage) * -1;
-	}
-
-	private float calcSpeed(float speed) {
-		return (4 - speed) * -1;
-	}
 
 	@Override
 	public void registerItemModel() {

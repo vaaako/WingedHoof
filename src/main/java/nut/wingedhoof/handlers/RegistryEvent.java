@@ -1,13 +1,9 @@
 package nut.wingedhoof.handlers;
 
-import nut.wingedhoof.handlers.LootTableHandler;
 import nut.wingedhoof.entities.LootTableEvent;
 import nut.wingedhoof.world.gen.WorldGenCustomOres;
 
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
-
-import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;

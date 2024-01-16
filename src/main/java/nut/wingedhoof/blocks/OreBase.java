@@ -1,7 +1,6 @@
 package nut.wingedhoof.blocks;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.BlockInit;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.interfaces.IRegisterable;
@@ -10,10 +9,8 @@ import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemTool;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.block.material.Material;
 
 import net.minecraft.util.NonNullList;
@@ -42,7 +39,6 @@ public class OreBase extends Block implements IRegisterable {
 		this.resistance   = resistance;
 		this.harvestTool  = harvestTool;
 		this.harvestLevel = harvestLevel;
-		this.dropItem     = dropItem;
 
 		init();
 	}

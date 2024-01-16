@@ -1,6 +1,5 @@
 package nut.wingedhoof.init;
 
-import nut.wingedhoof.WingedHoof;
 import nut.wingedhoof.blocks.BlockBase;
 import nut.wingedhoof.blocks.OreBase;
 import nut.wingedhoof.interfaces.IRegisterable;

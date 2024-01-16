@@ -1,7 +1,6 @@
 package nut.wingedhoof.blocks;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.BlockInit;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.interfaces.IRegisterable;
@@ -10,19 +9,9 @@ import java.util.Random;
 
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemTool;
 import net.minecraft.item.ItemBlock;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.block.material.Material;
 
-import net.minecraft.util.NonNullList;
-import net.minecraft.util.math.MathHelper;
-import net.minecraft.world.World;
-
-
-import net.minecraft.world.IBlockAccess;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.state.IBlockState;
 
 public class BlockBase extends Block implements IRegisterable {

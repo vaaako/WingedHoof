@@ -4,15 +4,9 @@ import java.util.Random;
 
 import nut.wingedhoof.init.ItemInit;
 
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
-
-import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.EntityCow;
-import net.minecraft.entity.item.EntityItem;
-
 import net.minecraft.world.storage.loot.LootPool;
-import net.minecraft.world.storage.loot.LootTableList;
 import net.minecraft.world.storage.loot.LootEntryItem;
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.storage.loot.conditions.LootCondition;
@@ -20,13 +14,8 @@ import net.minecraft.world.storage.loot.RandomValueRange;
 
 import net.minecraft.world.storage.loot.functions.LootFunction;
 import net.minecraft.world.storage.loot.functions.SetCount;
-// import net.minecraft.world.storage.loot.functions.ApplyBonus;
-// import net.minecraft.world.storage.loot.functions.DamageItem;
 import net.minecraft.enchantment.Enchantment;
-import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.world.storage.loot.functions.EnchantWithLevels;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-
 import net.minecraftforge.event.LootTableLoadEvent;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;

@@ -1,12 +1,10 @@
 package nut.wingedhoof.items.tools;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.tabs.WingedHoofTab;
+import net.minecraft.item.ItemHoe;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.interfaces.IRegisterable;
 
-import net.minecraft.item.ItemHoe;
-import net.minecraft.item.Item.ToolMaterial;
 
 public class ToolHoe extends ItemHoe implements IRegisterable {
 	public ToolHoe(String name, ToolMaterial material) {

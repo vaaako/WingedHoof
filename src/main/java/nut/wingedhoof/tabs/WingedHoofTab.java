@@ -13,7 +13,6 @@ public class WingedHoofTab extends CreativeTabs {
 		// this.setBackgroundImageName("tab_wingedhoof.png");
 	}
 
-
 	@Override
 	public ItemStack getTabIconItem() {
 		// return new ItemStack(Item.getItemFromBlock(BlockInit.PALLADIUM_BLOCK));

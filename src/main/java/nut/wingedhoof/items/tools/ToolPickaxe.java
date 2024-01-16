@@ -1,12 +1,10 @@
 package nut.wingedhoof.items.tools;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
+import net.minecraft.item.ItemPickaxe;
 import nut.wingedhoof.interfaces.IRegisterable;
 
-import net.minecraft.item.ItemPickaxe;
-import net.minecraft.item.Item.ToolMaterial;
 
 public class ToolPickaxe extends ItemPickaxe implements IRegisterable {
 	public ToolPickaxe(String name, ToolMaterial material) {

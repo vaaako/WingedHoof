@@ -1,7 +1,6 @@
 package nut.wingedhoof.world.gen.blocks;
 
 import net.minecraft.block.Block;
-import nut.wingedhoof.init.BlockInit;
 import net.minecraft.block.state.pattern.BlockMatcher;
 import net.minecraft.world.gen.feature.WorldGenMinable;
 

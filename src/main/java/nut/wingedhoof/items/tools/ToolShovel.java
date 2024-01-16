@@ -1,12 +1,9 @@
 package nut.wingedhoof.items.tools;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
-import nut.wingedhoof.interfaces.IRegisterable;
-
 import net.minecraft.item.ItemSpade;
-import net.minecraft.item.Item.ToolMaterial;
+import nut.wingedhoof.interfaces.IRegisterable;
 
 public class ToolShovel extends ItemSpade implements IRegisterable {
 	public ToolShovel(String name, ToolMaterial material) {
@@ -18,12 +15,11 @@ public class ToolShovel extends ItemSpade implements IRegisterable {
 		ItemInit.ITEMS.add(this);
 	}
 
-
 	@Override
 	public void registerItemModel() {
 		WingedHoof.proxy.registerItemRenderer(this, 0);
 	}
-	
+
 	@Override
 	public void updateRegistryAndLocalizedName(String name) {
 		setUnlocalizedName(name); // Used for language files

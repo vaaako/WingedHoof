@@ -1,14 +1,10 @@
 package nut.wingedhoof.items.armor;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.interfaces.IRegisterable;
-
 import net.minecraft.item.ItemArmor;
-
 import net.minecraft.inventory.EntityEquipmentSlot;
-import net.minecraft.item.ItemArmor;
 
 public class ArmorBase extends ItemArmor implements IRegisterable {
 	public ArmorBase(String name, ArmorMaterial materialIn, int renderIndexIn, EntityEquipmentSlot equipmentSlotIn) {
