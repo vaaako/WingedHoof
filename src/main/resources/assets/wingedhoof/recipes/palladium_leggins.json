@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"PPP",
+		"P P",
+		"P P"
+	],
+
+	"key": {
+		"P": { "item": "wingedhoof:palladium_ingot" }
+	},
+
+	"result": {
+		"item": "wingedhoof:palladium_leggins",
+		"count": 1
+	}
+}

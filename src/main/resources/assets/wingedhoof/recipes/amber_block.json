@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"AAA",
+		"AAA",
+		"AAA"
+	],
+
+	"key": {
+		"A": { "item": "wingedhoof:amber" }
+	},
+
+	"result": {
+		"item": "wingedhoof:amber_block",
+		"count": 1
+	}
+}

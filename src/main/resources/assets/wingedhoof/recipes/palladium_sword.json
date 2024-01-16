@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" P ",
+		"APA",
+		" / "
+	],
+
+	"key": {
+		"P": { "item": "wingedhoof:palladium_ingot" },
+		"A": { "item": "wingedhoof:amber" },
+		"/": { "item": "minecraft:stick" }
+	},
+
+	"result": {
+		"item": "wingedhoof:palladium_sword",
+		"count": 1
+	}
+}

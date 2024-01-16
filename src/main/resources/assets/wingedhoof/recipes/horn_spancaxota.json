@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"HHH",
+		" /H",
+		" / "
+	],
+
+	"key": {
+		"H": { "item": "wingedhoof:cow_horn" },
+		"/": { "item": "minecraft:bone" }
+	},
+
+	"result": {
+		"item": "wingedhoof:horn_spancaxota",
+		"count": 1
+	}
+}

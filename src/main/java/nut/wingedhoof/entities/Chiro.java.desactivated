@@ -1,0 +1,21 @@
+package nut.wingedhoof.entities;
+
+import net.minecraft.entity.passive.EntityCow;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.world.World;
+
+public class Chiro extends EntityCow {
+	public Chiro(World worldIn) {
+		super(worldIn);
+	}
+
+	@Override
+	protected ResourceLocation getLootTable() {
+		return LootTableHandler.CHIRO;
+	}
+
+	@Override
+	public EntityCow createChild(EntityAgeable ageable) {
+		
+	}
+}

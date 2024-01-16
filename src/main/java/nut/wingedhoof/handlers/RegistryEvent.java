@@ -1,5 +1,10 @@
 package nut.wingedhoof.handlers;
 
+import nut.wingedhoof.handlers.LootTableHandler;
+import nut.wingedhoof.entities.LootTableEvent;
+import nut.wingedhoof.world.gen.WorldGenCustomOres;
+
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 
 import net.minecraftforge.fml.common.network.NetworkRegistry;
@@ -12,11 +17,13 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
 public class RegistryEvent {
 	public static void preInitRegistries(FMLPreInitializationEvent event) {
-		// GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+		GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
 	}
 	
 	public static void initRegistries(FMLInitializationEvent event) {
 		// NetworkRegistry.INSTANCE.registerGuiHandler(WingedHoof, new GuiHandler());
+
+		MinecraftForge.EVENT_BUS.register(LootTableEvent.class);
 	}
 	
 	public static void postInitRegistries(FMLPostInitializationEvent event) {

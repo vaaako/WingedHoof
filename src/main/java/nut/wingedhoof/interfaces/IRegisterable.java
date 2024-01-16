@@ -1,4 +1,4 @@
-package nut.wingedhoof.util;
+package nut.wingedhoof.interfaces;
 
 public interface IRegisterable {
 	public void registerItemModel();

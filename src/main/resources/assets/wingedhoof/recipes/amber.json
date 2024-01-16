@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{ "item": "wingedhoof:amber_block" }
+	],
+
+	"result": {
+		"item": "wingedhoof:amber",
+		"count": 9
+	}
+}

@@ -1,15 +1,18 @@
 package nut.wingedhoof.init;
 
 import nut.wingedhoof.WingedHoof;
+import nut.wingedhoof.init.ItemInit;
 import nut.wingedhoof.items.ItemBase;
 import nut.wingedhoof.items.armor.ArmorBase;
 
 import nut.wingedhoof.items.tools.ToolSword;
 import nut.wingedhoof.items.tools.ToolAxe;
 import nut.wingedhoof.items.tools.ToolPickaxe;
+import nut.wingedhoof.items.tools.ToolShovel;
 import nut.wingedhoof.items.tools.ToolHoe;
+import nut.wingedhoof.items.tools.ToolItem;
 
-import nut.wingedhoof.util.IRegisterable;
+import nut.wingedhoof.interfaces.IRegisterable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +29,8 @@ public class ItemInit {
 	// All items
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 
-	/* MATERIAL */
+	/**
+	 * MATERIAL */
 	public static final ToolMaterial TOOL_PALLADIUM = EnumHelper.addToolMaterial("tool_palladium",
 		3,        // Harvest Level
 		2031,     // Durability
@@ -34,7 +38,17 @@ public class ItemInit {
 		9.0f - 4, // Damage (It sums base damage (e.g. sword base damage is +4))
 		12        // Enchantability
 	);
-	
+
+	public static final ToolMaterial TOOL_HORN = EnumHelper.addToolMaterial("tool_horn",
+		2,        // Harvest Level
+		250,      // Durability
+		6.0f,     // Efficiency (not used for swords)
+		6.0f - 4, // Damage (It sums base damage (e.g. sword base damage is +4))
+		12        // Enchantability
+	);
+
+	/**
+	 * AMOR */
 	public static final ArmorMaterial ARMOR_PALLADIUM = EnumHelper.addArmorMaterial("armor_palladium", WingedHoof.MODID + ":palladium",
 		400 / 5,                           // Durability (mutiplied by base 5 for some reason)
 		new int[]{ 5, 10, 12, 5 },         // Damage Reduction (HEAD, LEG, CHEST, BOOT)
@@ -45,17 +59,29 @@ public class ItemInit {
 
 
 
-	/* ITEMS */
+	/**
+	 * ITEMS */
 	public static final Item AMBER = new ItemBase("amber");
-	public static final Item PALLADIUM = new ItemBase("palladium");
+	public static final Item PALLADIUM_INGOT = new ItemBase("palladium_ingot");
 
-	/* TOOLS */ 
+	public static final Item COW_HORN = new ItemBase("cow_horn");
+
+	/**
+	 * TOOLS */ 
+	// PALADDIUM //
 	public static final Item PALLADIUM_SWORD = new ToolSword("palladium_sword", TOOL_PALLADIUM);
 	public static final Item PALLADIUM_AXE = new ToolAxe("palladium_axe", TOOL_PALLADIUM, 12.0f, 1.0f);
 	public static final Item PALLADIUM_PICKAXE = new ToolPickaxe("palladium_pickaxe", TOOL_PALLADIUM);
+	public static final Item PALLADIUM_SHOVEL = new ToolShovel("palladium_shovel", TOOL_PALLADIUM);
 	public static final Item PALLADIUM_HOE = new ToolHoe("palladium_hoe", TOOL_PALLADIUM);
 
-	/* ARMOR */
+	// HORN //
+	public static final Item HORN_SPANCAXOTA = new ToolItem("horn_spancaxota", TOOL_HORN, 9.0f, 0.8f);
+
+	// public static final Item PALLADIUM_AXE = new ToolAxe("palladium_axe", TOOL_HORN, 9.0f, 0.8f);
+
+	/**
+	 * ARMOR */
 	public static final Item PALLADIUM_HELMET = new ArmorBase("palladium_helmet", ARMOR_PALLADIUM, 0, EntityEquipmentSlot.HEAD);
 	public static final Item PALLADIUM_CHESTPLATE = new ArmorBase("palladium_chestplate", ARMOR_PALLADIUM, 1, EntityEquipmentSlot.CHEST);
 	public static final Item PALLADIUM_LEGGINS = new ArmorBase("palladium_leggins", ARMOR_PALLADIUM, 2, EntityEquipmentSlot.LEGS);

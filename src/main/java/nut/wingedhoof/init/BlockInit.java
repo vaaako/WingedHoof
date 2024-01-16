@@ -1,11 +1,9 @@
 package nut.wingedhoof.init;
 
 import nut.wingedhoof.WingedHoof;
-import nut.wingedhoof.util.IRegisterable;
-
 import nut.wingedhoof.blocks.BlockBase;
 import nut.wingedhoof.blocks.OreBase;
-
+import nut.wingedhoof.interfaces.IRegisterable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -44,6 +42,15 @@ public class BlockInit  {
 		"pickaxe",
 		3
 	);
+
+	public static final Block PALLADIUM_ORE = new OreBase("palladium_ore",
+		7.0f,
+		5.0f,
+		"pickaxe",
+		3,
+		ItemInit.PALLADIUM_INGOT
+	);
+
 
 
 	public static void registerModels() {

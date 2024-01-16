@@ -3,7 +3,7 @@ package nut.wingedhoof.items;
 import nut.wingedhoof.WingedHoof;
 import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.ItemInit;
-import nut.wingedhoof.util.IRegisterable;
+import nut.wingedhoof.interfaces.IRegisterable;
 
 import net.minecraft.item.Item;
 

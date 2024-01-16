@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CORRECT_USAGE="Correct Usage: new_item (-b | -i | -t) item_id \"Item Name\""
+CORRECT_USAGE="Correct Usage: new_item (-r | -i | -t | -b) item_id \"Item Name\""
 
 MOD_ID="wingedhoof"
 RESOURCES="src/main/resources/assets/wingedhoof"
@@ -8,6 +8,7 @@ RESOURCES="src/main/resources/assets/wingedhoof"
 MODEL_ITEM="$RESOURCES/models/item"
 MODEL_ITEM_BLOCK="$RESOURCES/models/block"
 BLOCK_STATE="$RESOURCES/blockstates"
+RECIPES="$RESOURCES/recipes"
 
 LANG_FILE="$RESOURCES/lang/en_us.lang"
 LANG_PREFIX="item"
@@ -16,9 +17,35 @@ ITEM_TYPE="$1"
 ITEM_ID="$2"
 ITEM_NAME="$3"
 
+
+
+# New recipe
+if [ $ITEM_TYPE == "-r" ]; then
+	if [ -z "$ITEM_ID" ]; then
+		echo -e "Invalid Usage: Item id was expected\nnew_item -r item_id"
+		exit
+	fi
+
+	FULL_PATH="$RECIPES/$ITEM_ID.json"
+
+	if [ -e $FULL_PATH ]; then
+		echo -e "The file $ITEM_ID.json alredy exists on some of the folders: \"models/item\", \"models/block\" or \"blockstates\"!!! \nYou almost Overwrited it!"
+		exit
+	fi
+
+	echo -e "{\n\t\"type\": \"minecraft:crafting_shaped\",\n\t// \"group\": \"wingedhoof:group_here\",\n\t\"pattern\": [\n\t\t\"I\",\n\t\t\"\",\n\t\t\"\"\n\t],\n\n\t\"key\": {\n\t\t\"I\": { \"item\": \"wingedhoof:item_id\" }\n\t},\n\n\t\"result\": {\n\t\t\"item\": \"wingedhoof:$ITEM_ID\",\n\t\t\"count\": 1\n\t}\n}" > $FULL_PATH
+	
+	echo -e "Recipe of $ITEM_ID added succesfully! \nYou need to edit resources/recipes/$ITEM_ID.json to make your recipe work!"
+
+	exit
+fi
+
+
+
+
 # Check if usage is valid
 if [ $ITEM_TYPE != "-i" ] && [ $ITEM_TYPE != "-b" ] && [ $ITEM_TYPE != "-t" ]; then
-	echo -e "Invalid Usage: -i or -b expected as argument \n$CORRECT_USAGE"
+	echo -e "Invalid Usage: Expected some flag as argument \n$CORRECT_USAGE"
 	exit
 fi
 
@@ -94,8 +121,13 @@ fi
 
 
 
+
+
 # Add name to language file
 echo "$LANG_PREFIX.$ITEM_ID.name=$ITEM_NAME" >> $LANG_FILE
 
 
 echo -e "Item $ITEM_NAME added succesfully! \nYou may want to adjust some files!!!"
+
+
+

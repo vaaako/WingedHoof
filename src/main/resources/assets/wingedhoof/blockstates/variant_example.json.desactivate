@@ -1,0 +1,5 @@
+{
+	"variants": {
+		"variant-amber": { "model": "wingedhoof:ore_overworld_amber" }
+	}
+}

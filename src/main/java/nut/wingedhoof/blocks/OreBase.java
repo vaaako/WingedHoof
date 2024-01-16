@@ -4,7 +4,7 @@ import nut.wingedhoof.WingedHoof;
 import nut.wingedhoof.tabs.WingedHoofTab;
 import nut.wingedhoof.init.BlockInit;
 import nut.wingedhoof.init.ItemInit;
-import nut.wingedhoof.util.IRegisterable;
+import nut.wingedhoof.interfaces.IRegisterable;
 
 import java.util.Random;
 
@@ -19,7 +19,6 @@ import net.minecraft.block.material.Material;
 import net.minecraft.util.NonNullList;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
-
 
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
@@ -50,7 +49,6 @@ public class OreBase extends Block implements IRegisterable {
 
 	public OreBase(String name, float hardness, float resistance, String harvestTool, int harvestLevel, Item dropItem) {
 		super(Material.ROCK);
-
 		this.name         = name;
 		this.hardness     = hardness;
 		this.resistance   = resistance;
@@ -74,27 +72,14 @@ public class OreBase extends Block implements IRegisterable {
 	}
 
 
-
-	public void setDropItem(Item dropItem) {
-		this.dropItem = dropItem;
-	}
-
-	public void setDropQuantity(int dropQuantity) {
-		this.dropQuantity = dropQuantity;
-	}
-
-	public void setExpMax(int maxExp) {
-		this.maxExp = (maxExp <= 0) ? 1 : maxExp;
-	}
-
 	@Override
 	public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
 		Random random = world instanceof World ? ((World)world).rand : new Random();
 
+		Item drop = (dropItem != null) ? dropItem : Item.getItemFromBlock(this);
+
 		// Drop item based on the fortune level
-		for (int i = 0; i < MathHelper.getInt(random, 1, (fortune + 1)); i++) {
-			drops.add(new ItemStack(dropItem));
-		}
+		drops.add(new ItemStack(drop, MathHelper.getInt(random, 1, (fortune + 1)), getMetaFromState(world.getBlockState(pos))));
 
 		super.getDrops(drops, world, pos, state, fortune);
 	}
