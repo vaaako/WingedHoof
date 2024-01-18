@@ -17,12 +17,16 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Mod(modid = WingedHoof.MODID, name = WingedHoof.NAME, version = WingedHoof.VERSION)
 public class WingedHoof {
 	public static final String MODID = "wingedhoof";
 	public static final String NAME = "WingedHoof";
 	public static final String VERSION = "1.0";
+	
+	public static final Logger LOGGER = LogManager.getLogger(MODID);
 
 	public static final String CLIENT = "nut.wingedhoof.proxy.ClientProxy";
 	public static final String SERVER = "nut.wingedhoof.proxy.CommonProxy";

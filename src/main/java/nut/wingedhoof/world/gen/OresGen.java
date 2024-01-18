@@ -1,10 +1,9 @@
 package nut.wingedhoof.world.gen;
 
+import java.util.Random;
+
 import nut.wingedhoof.world.gen.blocks.BlockGen;
 import nut.wingedhoof.init.BlockInit;
-
-import java.util.Random;
-import java.util.ArrayList;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
@@ -14,38 +13,35 @@ import net.minecraft.world.gen.IChunkGenerator;
 import net.minecraft.world.gen.feature.WorldGenerator;
 import net.minecraftforge.fml.common.IWorldGenerator;
 
-public class WorldGenCustomOres implements IWorldGenerator {
-	private ArrayList<BlockGen> worldBlocks = new ArrayList<BlockGen>();
-
+public class OresGen implements IWorldGenerator {
 	// If you want to use variant -> BlockInit.VARIANT_NAME.getDefaultState().withProperty(OreBlock.VARIANT, EnumHandler.EnumType.AMBER),
-	public WorldGenCustomOres() {
-		this.worldBlocks.add(
-			new BlockGen(
-				BlockInit.AMBER_ORE, // Block to gen
-				4,                   // Max amoun to gen
-				Blocks.STONE,        // Gen next to
-				3,                   // Chance
-				10,                  // Min height
-				25                   // Max height
-			)
-		);
 
-		this.worldBlocks.add(new BlockGen(BlockInit.PALLADIUM_ORE, 7, Blocks.STONE, 2, 0, 10));
-	}
+	private BlockGen[] worldBlocks = {
+		new BlockGen(
+			BlockInit.AMBER_ORE, // Block to gen
+			4,                   // Max amoun to gen
+			Blocks.STONE,        // Gen next to
+			3,                   // Chance
+			10,                  // Min height
+			25                   // Max height
+		),
+
+		new BlockGen(BlockInit.PALLADIUM_ORE, 7, Blocks.STONE, 2, 0, 10)
+	};
+
 
 	@Override
 	public void generate(Random random, int chunkX, int chunkZ, World world, IChunkGenerator chunkGenerator, IChunkProvider chunkProvider)  {
-		for(BlockGen block : this.worldBlocks) {
+		for(BlockGen block : worldBlocks) {
 			runGenerator(block.worldGenMinable, world, random, chunkX, chunkZ, block.chance, block.minHeight, block.maxHeight);
 		}
 
 
-
+		// Uncomment and add the for-loop where you want
 		// switch(world.provider.getDimension()) {
 		// 	case -1: // Nether
 		// 		break;
 		// 	case 0: // Overworld
-		// 		runGenerator(amber_ore, world, random, chunkX, chunkZ, 50, 0, 100);
 		// 		break;
 		// 	case 1: // End
 		// 		break;
@@ -53,17 +49,21 @@ public class WorldGenCustomOres implements IWorldGenerator {
 	}
 
 	private void runGenerator(WorldGenerator gen, World world, Random rand, int chunkX, int chunkZ, int chance, int minHeight, int maxHeight) {
-		if(minHeight > maxHeight || minHeight < 0 || maxHeight > 256)
+		if(minHeight > maxHeight || minHeight < 0 || maxHeight > 256) {
 			throw new IllegalArgumentException("Ore generated out of bound");
+		}
+
 
 		int heightDiff = maxHeight - minHeight + 1;
 
 		for(int i = 0; i < chance; i++) {
-			int x = chunkX * 16 + rand.nextInt(16);
-			int y = minHeight   + rand.nextInt(heightDiff);
-			int z = chunkZ * 16 + rand.nextInt(16);
-
-			gen.generate(world, rand, new BlockPos(x, y ,z));
+			gen.generate(world, rand, new BlockPos(
+				// Get random position to generate the ore
+					chunkX * 16 + rand.nextInt(16),
+					minHeight   + rand.nextInt(heightDiff),
+					chunkZ * 16 + rand.nextInt(16)
+				)
+			);
 		}
 
 	}

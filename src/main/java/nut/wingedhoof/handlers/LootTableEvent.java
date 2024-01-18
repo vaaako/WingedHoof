@@ -1,4 +1,4 @@
-package nut.wingedhoof.entities;
+package nut.wingedhoof.handlers;
 
 import java.util.Random;
 
@@ -86,7 +86,7 @@ public class LootTableEvent {
 	private static LootPool palladiumPool() {
 		LootEntryItem chest_palladium = new LootEntryItem(
 			ItemInit.PALLADIUM_INGOT, 1, 0,
-			new LootFunction[]{ new SetCount(new LootCondition[0], new RandomValueRange(0, 3)) },
+			new LootFunction[]{ new SetCount(new LootCondition[0], new RandomValueRange(1, 3)) },
 			new LootCondition[0], "palladium_ore"
 		);
 
